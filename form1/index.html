@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Form with validation</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="content__text">
+            <h1 class="content__text__h1">Learn to code by watching others</h1>
+            <p class="content__text__p">See how experienced developers solve problems in real-time. Watching scripted
+                tutorials is great, but understanding how developers think is invaluable.</p>
+        </div>
+        <div class="content__apply">
+            <a href="#" class="content__apply__btn btn"><span>Try it free 7days</span> then $20/mo. thereafter</a>
+            <form action="#" class="content__apply__form">
+                <input class="content__apply__form__input" type="text" placeholder="First Name">
+                <label class="hidden" name="First Name" id="fName">First Name cannot be empty</label>
+                <input class="content__apply__form__input" type="text" placeholder="Last Name">
+                <label class="hidden" name="First Name" id="lName">Last Name cannot be empty</label>
+                <input class="content__apply__form__input" type="email" placeholder="Email Address">
+                <label class="hidden" name="First Name" id="email">Looks like this is not an email</label>
+                <input class="content__apply__form__input" type="password" placeholder="Password">
+                <label class="hidden" name="First Name" id="password">Password cannot be empty</label>
+                <button class="content__apply__form__btn btn">CLAIM YOUT FREE TRIAL</button>
+                <p class="content__apply__form__text">By clicking the button, you are agreeing to our <a href="#">Terms
+                        and Services</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script defer src="script.js"></script>
+</body>
+
+</html>
+
+<!-- content__apply__form__input__error -->
