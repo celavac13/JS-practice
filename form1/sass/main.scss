@@ -135,6 +135,34 @@ body {
                 }
             }
 
+            &__div {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+
+                &:first-child{
+                    margin-top: 25px;
+                }
+            }
+
+            &__svg {
+                height: 30px;
+                width: 30px;
+                position: absolute;
+                top: 14%;
+                left: 85%;
+                fill: $color-primary-red;
+
+                @media only screen and (max-width: 570px) {
+                    left: 83%;
+                }
+                @media only screen and (max-width: 450px) {
+                    left: 80%;
+                }
+            }
+
             &__input {
                 font-family: inherit;
                 font-size: 14px;
@@ -151,9 +179,6 @@ body {
                     color: $color-secondary-blue-light;
                 }
 
-                &:first-child{
-                    margin-top: 25px;
-                }
 
                 &:focus{
                     outline: 1px solid $color-secondary-blue;
